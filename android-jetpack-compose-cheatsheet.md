@@ -1,9 +1,9 @@
 # Android Jetpack Compose Cheatsheet
 
-This comprehensive cheatsheet covers major UI and form-related components in Jetpack Compose, providing descriptions, summaries, and Kotlin code examples for each. The structure is designed for easy reference and can be converted to a PDF document using a Markdown-to-PDF tool. Image references are included with HTML markup and URLs where available to visually represent the components.
+This comprehensive cheatsheet covers major UI and form-related components in Jetpack Compose, providing descriptions, summaries, and Kotlin code examples for each. 
 
 ## 1. Text
-**Description/Summary**: The `Text` composable displays text on the screen. It supports styling options like color, font size, weight, style, alignment, and more, making it essential for labels, headings, and paragraphs[1][2].
+**Description/Summary**: The `Text` composable displays text on the screen. It supports styling options like color, font size, weight, style, alignment, and more, making it essential for labels, headings, and paragraphs.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -25,7 +25,7 @@ fun SimpleText() {
 ```
 
 ## 2. Button
-**Description/Summary**: Buttons trigger actions. Jetpack Compose offers types like Filled, Tonal, Outlined, Elevated, and Text buttons, each with Material Design styling for emphasis levels (high, medium, low)[3][4].
+**Description/Summary**: Buttons trigger actions. Jetpack Compose offers types like Filled, Tonal, Outlined, Elevated, and Text buttons, each with Material Design styling for emphasis levels (high, medium, low).
 
 **Sample Kotlin Code** (Filled Button):
 ```kotlin
@@ -42,7 +42,7 @@ fun SimpleButton(onClick: () -> Unit) {
 ```
 
 ## 3. Image
-**Description/Summary**: The `Image` composable displays images from resources, bitmaps, or painters. It supports scaling, alpha, color filters, and shapes like circles[5][6].
+**Description/Summary**: The `Image` composable displays images from resources, bitmaps, or painters. It supports scaling, alpha, color filters, and shapes like circles.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -62,7 +62,7 @@ fun SimpleImage() {
 ```
 
 ## 4. Column
-**Description/Summary**: Arranges child composables vertically. Supports vertical arrangement (e.g., top, center, spaced) and horizontal alignment[7][8].
+**Description/Summary**: Arranges child composables vertically. Supports vertical arrangement (e.g., top, center, spaced) and horizontal alignment.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -81,7 +81,7 @@ fun SimpleColumn() {
 ```
 
 ## 5. Row
-**Description/Summary**: Arranges child composables horizontally. Supports horizontal arrangement and vertical alignment[9][10].
+**Description/Summary**: Arranges child composables horizontally. Supports horizontal arrangement and vertical alignment.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -100,7 +100,7 @@ fun SimpleRow() {
 ```
 
 ## 6. Box
-**Description/Summary**: A container for stacking or aligning single/multiple children. Useful for overlays, alignments, and custom drawings[11][12].
+**Description/Summary**: A container for stacking or aligning single/multiple children. Useful for overlays, alignments, and custom drawings.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -121,7 +121,7 @@ fun SimpleBox() {
 ```
 
 ## 7. Spacer
-**Description/Summary**: An empty space for adding gaps between composables. Defined by width, height, or size modifiers[13][14].
+**Description/Summary**: An empty space for adding gaps between composables. Defined by width, height, or size modifiers.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -144,7 +144,7 @@ fun SimpleSpacer() {
 ```
 
 ## 8. Surface
-**Description/Summary**: A Material Design container for applying themes, colors, elevations, and shapes. Ideal for cards or themed sections[15][16].
+**Description/Summary**: A Material Design container for applying themes, colors, elevations, and shapes. Ideal for cards or themed sections.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -162,7 +162,7 @@ fun SimpleSurface() {
 ```
 
 ## 9. Card
-**Description/Summary**: A container for grouping related content with elevation, shape, and borders. Often used for items in lists[3][17].
+**Description/Summary**: A container for grouping related content with elevation, shape, and borders. Often used for items in lists.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -179,7 +179,7 @@ fun SimpleCard() {
 ```
 
 ## 10. LazyColumn
-**Description/Summary**: Efficiently renders scrolling vertical lists, loading only visible items. Similar to RecyclerView[18][19].
+**Description/Summary**: Efficiently renders scrolling vertical lists, loading only visible items. Similar to RecyclerView.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -199,7 +199,7 @@ fun SimpleLazyColumn(items: List<String>) {
 ```
 
 ## 11. Modifier
-**Description/Summary**: Chainable extensions for customizing composables (e.g., padding, size, background). Essential for layouts and styling[14].
+**Description/Summary**: Chainable extensions for customizing composables (e.g., padding, size, background). Essential for layouts and styling.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -223,7 +223,7 @@ fun SimpleModifier() {
 ```
 
 ## 12. TextField
-**Description/Summary**: A basic input field for user text entry. Supports labels, placeholders, validation, and keyboard options like IME actions for forms[20][21].
+**Description/Summary**: A basic input field for user text entry. Supports labels, placeholders, validation, and keyboard options like IME actions for form.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -245,7 +245,7 @@ fun SimpleTextField() {
 ```
 
 ## 13. OutlinedTextField
-**Description/Summary**: An outlined variant of TextField with borders, ideal for forms where multiple fields are grouped. Supports error states and icons[22][23].
+**Description/Summary**: An outlined variant of TextField with borders, ideal for forms where multiple fields are grouped. Supports error states and icons.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -267,7 +267,7 @@ fun SimpleOutlinedTextField() {
 ```
 
 ## 14. Checkbox
-**Description/Summary**: A toggle for selecting multiple options in forms. Represents binary states (checked/unchecked) and can be grouped[24][25].
+**Description/Summary**: A toggle for selecting multiple options in forms. Represents binary states (checked/unchecked) and can be grouped.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -287,7 +287,7 @@ fun SimpleCheckbox() {
 ```
 
 ## 15. RadioButton
-**Description/Summary**: Allows single selection from a group of options in forms. Typically used in a RadioGroup for mutual exclusivity[26][27].
+**Description/Summary**: Allows single selection from a group of options in forms. Typically used in a RadioGroup for mutual exclusivity.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -306,7 +306,7 @@ fun SimpleRadioButton(selected: Boolean, onSelect: () -> Unit) {
 ```
 
 ## 16. Switch
-**Description/Summary**: A toggle switch for binary settings in forms, like on/off states. Supports colors and thumb customization[28][29].
+**Description/Summary**: A toggle switch for binary settings in forms, like on/off states. Supports colors and thumb customization.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -326,7 +326,7 @@ fun SimpleSwitch() {
 ```
 
 ## 17. Slider
-**Description/Summary**: Allows users to select a value from a continuous or discrete range in forms. Customizable with steps, colors, and value ranges[30][31].
+**Description/Summary**: Allows users to select a value from a continuous or discrete range in forms. Customizable with steps, colors, and value ranges.
 
 **Sample Kotlin Code**:
 ```kotlin
@@ -347,7 +347,7 @@ fun SimpleSlider() {
 ```
 
 ## 18. DropdownMenu
-**Description/Summary**: A menu that drops down for selecting from a list of options in forms. Often used with ExposedDropdownMenuBox for text field integration[32][33].
+**Description/Summary**: A menu that drops down for selecting from a list of options in forms. Often used with ExposedDropdownMenuBox for text field integration.
 
 **Sample Kotlin Code**:
 ```kotlin
