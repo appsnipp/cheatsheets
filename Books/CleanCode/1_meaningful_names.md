@@ -9,10 +9,10 @@ In *Clean Code*, Robert C. Martin emphasizes that names are the primary document
 
 - **Variables:** Should describe *what* they hold. For instance, `userAge` clearly indicates its content, unlike `a`.  
 - **Functions:** Should describe *what* they do, typically starting with a verb. For example, `calculateTotal()` vs. `doCalc()`. Functions should be short and perform a single action.  
-- **Classes and Modules:** Named for the abstraction they represent. A class handling user authentication could be `AuthManager` instead of `UM`.  
+- **Classes and Modules:** Named for the abstraction they represent. A class handling user authentication could be `AuthManager` instead of `m`.  
 
 ### Examples  
-Bad Naming Example (generated_image:12):  
+Bad Naming Example :  
 ```java
 int a;
 void m() {
@@ -20,7 +20,7 @@ void m() {
 }
 ```
 
-Good Naming Example (generated_image:13):  
+Good Naming Example :  
 ```java
 int userAge;
 void calculateTotal() {

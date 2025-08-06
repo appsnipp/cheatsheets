@@ -4,7 +4,7 @@
 
 Functions are the fundamental building blocks of clean code and serve as the primary means of organizing and expressing our programming logic. Robert C. Martin emphasizes that **functions should be small, do one thing well, and do it at a single level of abstraction**. This principle transforms complex, unwieldy code into readable, maintainable, and testable components.
 
-![Single Responsibility](images/2_clean_code_functions.png)
+![Single Responsibility](Images/2_clean_code_functions.png)
 
 ### Core Principles of Clean Functions
 

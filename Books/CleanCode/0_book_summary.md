@@ -15,5 +15,5 @@
 - **Avoid Switch Statements:** Prefer polymorphism to handle different behaviors.
 - **Formatting:** Proper formatting increases readability; keep lines and functions short.
 
-The book combines principles with detailed examples showing how to transform messy code into clean, manageable code, advocating professionalism and care in software craftsmanship to keep codebases sustainable and scalable.[1][2][3][4][5][6][7][8]
+The book combines principles with detailed examples showing how to transform messy code into clean, manageable code, advocating professionalism and care in software craftsmanship to keep codebases sustainable and scalable.
 
