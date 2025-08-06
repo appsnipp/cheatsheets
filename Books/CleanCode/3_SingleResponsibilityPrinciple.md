@@ -4,6 +4,7 @@
 
 ![Single Responsibility](Images/3_clean_code_srp.png)
 
+
 The **Single Responsibility Principle (SRP)** is one of the fundamental principles of clean code and object-oriented design. It states that a class should have only one reason to change, meaning it should have only one job or responsibility. This principle is crucial for creating maintainable, testable, and flexible code.
 
 ### Why the Single Responsibility Principle Matters
