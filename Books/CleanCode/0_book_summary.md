@@ -17,3 +17,4 @@
 
 The book combines principles with detailed examples showing how to transform messy code into clean, manageable code, advocating professionalism and care in software craftsmanship to keep codebases sustainable and scalable.
 
+
